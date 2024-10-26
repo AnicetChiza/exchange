@@ -71,3 +71,20 @@ body {
     background: unset;
     font-family: "Raleway", serif;
 }
+
+.bloc {
+    margin-top: 20px;
+}
+
+.bloc-item {
+    display: flex;
+    padding: 10px 15px;
+    flex-direction: column;
+    border: 1px solid #46454546;
+}
+
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
