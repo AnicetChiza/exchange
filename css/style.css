@@ -83,6 +83,23 @@ body {
     border: 1px solid #46454546;
 }
 
+.icons {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 50%;
+    margin: auto;
+    z-index: 2;
+    background: #46454546;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #46454546;
+}
+
+.second-bloc {
+    /* margin-top: -10px; */
+}
+
 .dropdown-item {
     display: flex;
     align-items: center;
