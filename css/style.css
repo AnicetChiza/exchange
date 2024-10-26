@@ -21,7 +21,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #101921;
-    font-family: "Afacad Flux", serif;
+    font-family: "Raleway", serif;
 }
 
 
@@ -44,7 +44,7 @@ body {
 .dropdown {
     width: 100%;
     border-radius: 5px;
-    padding: 30px 40px;
+    padding: 25px 30px;
     margin-top: 20px;
     border: 1px solid #46454546;
 }
@@ -52,11 +52,14 @@ body {
 .dropdown-container form {
     padding: 10px 15px;
     border-radius: 5px;
+    background-color: #2d34395b;
+}
+
+.dropdown-container form div {
     display: flex;
     gap: 5px;
     align-items: center;
     -webkit-column-gap: 5px;
-    background-color: #2d34395b;
 }
 
 .dropdown-container form input {
@@ -66,5 +69,5 @@ body {
     color: #fff;
     padding: 10px;
     background: unset;
-    font-family: "Afacad Flux", serif;
+    font-family: "Raleway", serif;
 }
