@@ -30,7 +30,7 @@ body {
 ------------------ */
 
 .general-section {
-    width: 50%;
+    width: 35%;
 }
 
 .welcome {
@@ -44,7 +44,26 @@ body {
 .dropdown {
     width: 100%;
     border-radius: 5px;
-    padding: 20px 20px;
+    padding: 30px 40px;
     margin-top: 20px;
     border: 1px solid #46454546;
+}
+
+.dropdown-container form {
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    -webkit-column-gap: 5px;
+    background-color: #2d34395b;
+}
+
+.dropdown-container form input {
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    background: unset;
 }
