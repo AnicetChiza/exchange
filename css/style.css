@@ -1,0 +1,42 @@
+/* ---------------- /
+#Reset
+------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ---------------- /
+#General
+------------------ */
+
+body {
+    font-size: 18px;
+    color: #d1cece;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #101921;
+    font-family: "Afacad Flux", serif;
+}
+
+
+/* ---------------- /
+#General
+------------------ */
+
+.general-section {
+    width: 50%;
+}
+
+.welcome {
+    width: 100%;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 5px;
+    border: 1px solid #4645452f;
+}
