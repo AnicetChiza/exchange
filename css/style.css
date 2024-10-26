@@ -86,6 +86,7 @@ body {
     padding: 10px 15px;
     flex-direction: column;
     border-radius: 5px;
+    cursor: pointer;
     border: 1px solid #46454546;
 }
 
@@ -109,10 +110,16 @@ body {
     border: 1px solid #46454546;
 }
 
-.second-bloc {}
-
 .dropdown-item {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.dropdown-item i {
+    font-size: 14px;
+}
+
+.up {
+    display: none;
 }
