@@ -176,7 +176,6 @@ body {
 @media screen and (max-width: 530px) {
     body {
         padding: 10px 10px;
-        align-items: flex-start;
     }
     .general-section {
         width: 100%;
