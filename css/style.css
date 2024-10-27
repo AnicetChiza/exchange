@@ -72,54 +72,79 @@ body {
     font-family: "Raleway", serif;
 }
 
-.bloc {
-    margin-top: 20px;
-    position: relative;
+.currency-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    gap: 25px;
-    -webkit-column-gap: 25px;
+    gap: 15px;
 }
 
 .bloc-item {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
     display: flex;
-    padding: 10px 15px;
     flex-direction: column;
-    border-radius: 5px;
-    cursor: pointer;
-    border: 1px solid #46454546;
+    align-items: flex-start;
+    background-color: #ffffff;
+    position: relative;
 }
 
-.bloc-item span {
-    font-size: 14px;
-}
-
-.icons {
-    width: 45px;
-    height: 45px;
+.dropdown {
+    width: 100%;
     display: flex;
-    border-radius: 50%;
-    position: absolute;
-    top: 50px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-    background: #46454546;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    border: 1px solid #46454546;
 }
 
-.dropdown-item {
+.dropdown-button {
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
 }
 
-.dropdown-item i {
-    font-size: 14px;
-}
-
-.up {
+.dropdown-content {
     display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+.swap-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #464545f2;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }

@@ -33,31 +33,29 @@
                     </div>
                 </form>
 
-                <div class="bloc">
-                    <div class="first-bloc bloc-item">
+                <div class="currency-container">
+                    <div class="bloc-item first-bloc">
                         <span style="color: #464545f2;">From</span>
-                        <div class="dropdown-item">
-                            <span class="current">Current country</span>
-                            <div>
-                                <i class="bi bi-chevron-down down"></i>
-                                <i class="bi bi-chevron-up up"></i>
-                            </div>
+                        <div class="dropdown">
+                            <button class="dropdown-button" id="dropdownButton1"><i class="bi bi-chevron-down down"></i> <i class="bi bi-chevron-up up" style="display: none;"></i> <span id="currency-text1">EUR - Euro</span></button>
+                            <div class="dropdown-content" id="dropdownContent1"></div>
                         </div>
                     </div>
-                    <div class="icons">
-                        <i class="bi bi-chevron-bar-contract"></i>
+
+                    <!-- Bouton d'échange au centre -->
+                    <div class="swap-button">
+                        <i class="bi bi-arrow-up-down"></i>
                     </div>
-                    <div class="second-bloc bloc-item">
+
+                    <div class="bloc-item second-bloc">
                         <span style="color: #464545f2;">To</span>
-                        <div class="dropdown-item">
-                            <span class="current">Current country</span>
-                            <div>
-                                <i class="bi bi-chevron-down down"></i>
-                                <i class="bi bi-chevron-up up"></i>
-                            </div>
+                        <div class="dropdown">
+                            <button class="dropdown-button" id="dropdownButton2"><i class="bi bi-chevron-down down"></i> <i class="bi bi-chevron-up up" style="display: none;"></i> <span id="currency-text2">RWF - Rwandan Franc</span></button>
+                            <div class="dropdown-content" id="dropdownContent2"></div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
