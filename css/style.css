@@ -94,10 +94,10 @@ body {
 }
 
 .dropdown {
-    /* width: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center; */
+    align-items: center;
 }
 
 .dropdown-button {
@@ -181,7 +181,8 @@ body {
     .general-section {
         width: 100%;
     }
-    .container {
+    .container,
+    .result {
         padding: 15px 15px;
     }
 }
