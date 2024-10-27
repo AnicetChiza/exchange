@@ -141,3 +141,30 @@ body {
     background-color: #2d3439;
     border: 1px solid #46454546;
 }
+
+
+/* Media query */
+
+@media screen and (max-width: 1134px) {
+    .general-section {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .general-section {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    body {
+        padding: 10px 15px;
+    }
+    .general-section {
+        width: 100%;
+    }
+    .container {
+        padding: 15px 15px;
+    }
+}
