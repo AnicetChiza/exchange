@@ -125,16 +125,17 @@ body {
     top: 100%;
     left: 0;
     width: 100%;
-    border: 1px solid #e0e0e0;
-    border-radius: 4px;
-    background-color: #fff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #2d3439;
     z-index: 100;
 }
 
 .dropdown-item {
-    /* padding: 10px;
-    cursor: pointer; */
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #46454546;
 }
 
 .swap-button {
