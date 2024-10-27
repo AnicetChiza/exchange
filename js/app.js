@@ -53,6 +53,20 @@ document.querySelector('.swap-button').addEventListener('click', () => {
     currencyText2.textContent = tempText;
 });
 
+// 
+const inputAmount = document.getElementById('amount-input');
+const inputDisplay = document.getElementById('amount-display');
+
+inputAmount.addEventListener('input', () => {
+    let value = inputAmount.value;
+    if (value === '') {
+        value = "0.00";
+    } else {
+        value = Number(value).toFixed(2);
+    }
+    inputDisplay.textContent = value;
+});
+
 
 // const myItems = document.querySelectorAll('.bloc-item');
 
