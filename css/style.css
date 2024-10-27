@@ -45,7 +45,7 @@ body {
     width: 100%;
     border-radius: 5px;
     padding: 25px 30px;
-    margin-top: 20px;
+    margin-top: 10px;
     border: 1px solid #46454546;
 }
 
@@ -159,7 +159,7 @@ body {
 
 @media screen and (max-width: 530px) {
     body {
-        padding: 15px 15px;
+        padding: 10px 10px;
         align-items: flex-start;
     }
     .general-section {
