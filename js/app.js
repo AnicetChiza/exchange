@@ -2,8 +2,13 @@ const countries = [
     { name: "Rwanda", currencyCode: "RWF", currencyName: "Rwandan Franc", flag: "🇷🇼" },
     { name: "United States", currencyCode: "USD", currencyName: "US Dollar", flag: "🇺🇸" },
     { name: "Kenya", currencyCode: "KES", currencyName: "Kenyan Shilling", flag: "🇰🇪" },
-    { name: "European Union", currencyCode: "EUR", currencyName: "Euro", flag: "🇪🇺" }
-    // Ajoutez d'autres pays ici
+    { name: "European Union", currencyCode: "EUR", currencyName: "Euro", flag: "🇪🇺" },
+    { name: "Canada", currencyCode: "CAD", currencyName: "Canadian Dollar", flag: "🇨🇦" },
+    { name: "Japan", currencyCode: "JPY", currencyName: "Japanese Yen", flag: "🇯🇵" },
+    { name: "United Kingdom", currencyCode: "GBP", currencyName: "British Pound", flag: "🇬🇧" },
+    { name: "South Africa", currencyCode: "ZAR", currencyName: "South African Rand", flag: "🇿🇦" },
+    { name: "India", currencyCode: "INR", currencyName: "Indian Rupee", flag: "🇮🇳" },
+    { name: "China", currencyCode: "CNY", currencyName: "Chinese Yuan", flag: "🇨🇳" }
 ];
 
 function populateDropdown(dropdownContent, currencyText, dropdownButton) {

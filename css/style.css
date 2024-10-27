@@ -106,17 +106,6 @@ body {
     background: unset;
     color: #d1cece;
     font-family: "Raleway", serif;
-    /* width: 100%;
-    background: none;
-    border: none;
-    font-size: 16px;
-    color: #333;
-    text-align: left;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    cursor: pointer;
-    border: 1px solid #46454546; */
 }
 
 .dropdown-content {
